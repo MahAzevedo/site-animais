@@ -1,4 +1,4 @@
-body,
+/* body,
 h1,
 h2,
 ul,
@@ -117,7 +117,7 @@ body {
 }
 
 .animais-lista::-webkit-scrollbar-track {
-    /* background: #faf6ed; */
+    /* background: #faf6ed; 
     background: lightgray;
 }
 
@@ -227,4 +227,4 @@ body {
     .copyright {
         margin-bottom: 0px;
     }
-}
+} */
