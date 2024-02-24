@@ -140,6 +140,10 @@ const todaImg = document.querySelectorAll('img');
 // console.log(todaImg);
 
 // 2/5: Retorne no console apenas as imagens que começaram com a palavra imagem
+const animaisListaImg = document.querySelectorAll('.animais-lista img');
+('img[src^="img/imagem"]')
+console.log(animaisListaImg)
+
 //const returnImg = document.querySelectorAll('[href="imagem"]'); //img
 // console.log(returnImg);
 
@@ -159,6 +163,7 @@ const linkInternoTodosMasSoRetornaUm = document.querySelector('[href^="#"]');
 console.log(linkInternoTodosMasSoRetornaUm);
 //retornou -->   <a href="#animais">ANIMAIS</a>
 
+
 // 4/5: Selecione o primeiro h2 dentro de .animais-descricao
 const primeiroh2 = document.querySelector('h2:first-child');
 console.log(primeiroh2);
@@ -168,7 +173,6 @@ console.log(primeiroh2);
     "RAPOSA"
 </h2> 
 */
-
 
 // 5/5: Selecione o último p do site.
 const lastChildl = document.querySelector('p:last-child');
