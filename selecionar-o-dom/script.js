@@ -124,45 +124,24 @@ console.log(arrayGrid)
 // ---->>>>   *******************
 // Exercícios:
 // 1/5: Retorne no console todas as imagens do site
-
-// 2/5: Retorne no console apenas as imagens que começaram com a palavra imagem
-
-// 3/5: Selecione todos os links internos (onde o href começa com #)
-
-// 4/5: Selecione o primeiro h2 dentro de .animais-descricao
-
-// 5/5: Selecione o último p do site.
-
-
-
-// 1/5: Retorne no console todas as imagens do site
 const todaImg = document.querySelectorAll('img');
 // console.log(todaImg);
+
+//------------------------
 
 // 2/5: Retorne no console apenas as imagens que começaram com a palavra imagem
 const animaisListaImg = document.querySelectorAll('.animais-lista img');
 ('img[src^="img/imagem"]')
 console.log(animaisListaImg)
 
-//const returnImg = document.querySelectorAll('[href="imagem"]'); //img
-// console.log(returnImg);
-
-// const returnImg = document.getElementsByName('.img imagem');
-
-// const returnImg = document.getElementsByClassName('.img imagem')
-
-// returnImg.forEach(function (imagem)){
-//     returnImg = document.getElementsByClassName('.img imagem')
-// };
-// console.log(imagem);
-
+//------------------------
 
 // 3/5: Selecione todos os links internos (onde o href começa com #)
-
-const linkInternoTodosMasSoRetornaUm = document.querySelector('[href^="#"]');
+const linkInternoTodosMasSoRetornaUm = document.querySelector('[href^="#"]'); // ou escrever ('[href="#animais"]')
 console.log(linkInternoTodosMasSoRetornaUm);
 //retornou -->   <a href="#animais">ANIMAIS</a>
 
+//------------------------
 
 // 4/5: Selecione o primeiro h2 dentro de .animais-descricao
 const primeiroh2 = document.querySelector('h2:first-child');
@@ -174,6 +153,8 @@ console.log(primeiroh2);
 </h2> 
 */
 
+//------------------------
+
 // 5/5: Selecione o último p do site.
 const lastChildl = document.querySelector('p:last-child');
 console.log(lastChildl)
@@ -181,3 +162,7 @@ console.log(lastChildl)
 <p>
 "Também apresentam como particularidade suas pupilas ovais, semelhantes às pupilas verticais dos felídeos."
 </p> */
+
+//------------------------
+
+
