@@ -137,8 +137,8 @@ console.log(animaisListaImg)
 //------------------------
 
 // 3/5: Selecione todos os links internos (onde o href começa com #)
-const linkInternoTodosMasSoRetornaUm = document.querySelector('[href^="#"]'); // ou escrever ('[href="#animais"]')
-console.log(linkInternoTodosMasSoRetornaUm);
+const linksInterno = document.querySelector('[href^="#"]'); // ou escrever ('[href="#animais"]')
+console.log(linksInterno);
 //retornou -->   <a href="#animais">ANIMAIS</a>
 
 //------------------------
@@ -156,8 +156,18 @@ console.log(primeiroh2);
 //------------------------
 
 // 5/5: Selecione o último p do site.
-const lastChildl = document.querySelector('p:last-child');
-console.log(lastChildl)
+const paragrafos = document.querySelectorAll('p'); // esses paragrafos é uma array-like e ele possui o .length que é uma propriedade.
+console.log(paragrafos.length) // tem 25 
+console.log(paragrafos[24]) // pq conta o zero
+console.log(paragrafos[24])
+console.log(paragrafos[24])
+console.log(paragrafos[paragrafos.length - 1])
+// melhor jeito é esse é esse aqui
+console.log(paragrafos[--paragrafos.length])
+// forma mais usada
+
+
+
 /*retornou no console:
 <p>
 "Também apresentam como particularidade suas pupilas ovais, semelhantes às pupilas verticais dos felídeos."
