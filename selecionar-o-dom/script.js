@@ -173,6 +173,7 @@ console.log(paragrafos[--paragrafos.length])
 "Também apresentam como particularidade suas pupilas ovais, semelhantes às pupilas verticais dos felídeos."
 </p> */
 
-//------------------------
+//-------*****---------*****--------
 
-// exercicios
+// for Each
+//  É um método que é utilizado de array.
