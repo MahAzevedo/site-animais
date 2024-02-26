@@ -125,7 +125,7 @@ console.log(arrayGrid)
 // Exercícios:
 // 1/5: Retorne no console todas as imagens do site
 const todaImg = document.querySelectorAll('img');
-// console.log(todaImg);
+console.log(todaImg);
 
 //------------------------
 
@@ -165,4 +165,4 @@ console.log(lastChildl)
 
 //------------------------
 
-
+// exercicios
