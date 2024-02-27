@@ -187,4 +187,4 @@ imgs.forEach(function (item) {
 });
 
 // Parâmetros do forEach:
-// forEach
+// Primeiro parâmetro é o callback, a função será ativada a cada item. Essa função pode receber 3três parâmetros: valorAtual, index, array.
