@@ -177,3 +177,14 @@ console.log(paragrafos[--paragrafos.length])
 
 // for Each
 //  É um método que é utilizado de array.
+// Uma lista, uma NodeList
+// function é chamada de callback
+// dentro dessa function é onde posso passar o argumento
+
+const imgs = document.querySelectorAll('img');
+imgs.forEach(function (item) {
+    console.log(item);
+});
+
+// Parâmetros do forEach:
+// forEach
