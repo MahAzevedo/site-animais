@@ -188,3 +188,34 @@ imgs.forEach(function (item) {
 
 // Parâmetros do forEach:
 // Primeiro parâmetro é o callback, a função será ativada a cada item. Essa função pode receber 3três parâmetros: valorAtual, index, array.
+
+const imgss = document.querySelectorAll('img');
+imgss.forEach(function (valorAtual, index, array) {
+    console.log(valorAtual);
+    console.log(index);
+    console.log(array);
+});
+
+
+imgss.forEach(function (item, index, array) {
+    console.log(item, index, array)
+});
+
+// Array É UM OBJETO QUE CRIA ARRAYS
+
+// aqui embaixo mostra a criação de HTMLCollection para array
+const titulos = document.getElementsByClassName('titulo');
+const titulosArray = Array.from(titulos);
+
+titulosArray.forEach(function (item) {
+    console.log(item)
+});
+
+
+// Arrow Function
+// encurta a FUNCTION EXPRESSION QUE É O CALLBACB FUNCTION
+// é só substituir a function(){} por () => e pronto
+
+const imgsss = document.querySelectorAll('img');
+
+imgsss.forEach((item) =>)
