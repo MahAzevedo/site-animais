@@ -218,4 +218,6 @@ titulosArray.forEach(function (item) {
 
 const imgsss = document.querySelectorAll('img');
 
-imgsss.forEach((item) =>)
+imgsss.forEach((item) =>) {
+    console.log(item);
+};
