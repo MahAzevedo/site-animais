@@ -213,7 +213,7 @@ titulosArray.forEach(function (item) {
 
 
 // Arrow Function
-// encurta a FUNCTION EXPRESSION QUE É O CALLBACB FUNCTION
+// encurta a FUNCTION EXPRESSION QUE É O CALLBACK FUNCTION
 // é só substituir a function(){} por () => e pronto
 
 const imgsss = document.querySelectorAll('img');
@@ -221,3 +221,4 @@ const imgsss = document.querySelectorAll('img');
 imgsss.forEach((item) =>) {
     console.log(item);
 };
+
