@@ -217,8 +217,30 @@ titulosArray.forEach(function (item) {
 // é só substituir a function(){} por () => e pronto
 
 const imgsss = document.querySelectorAll('img');
-
-imgsss.forEach((item) =>) {
+imgsss.forEach((item) => {
     console.log(item);
-};
+});
 
+imgsss.forEach((item, index) => {
+    console.log(item, index)
+});
+
+let i = 0;
+imgsss.forEach(() => {
+    console.log(i++)
+});
+
+// aqui coloquei return dentro do console
+let ii = 0;
+imgsss.forEach(() => {
+    return console.log(ii++)
+});
+
+// aqui só vai ter uma linha de código então pode tirar as chaves e fazer depois da arrow function/seta
+// argumento é o item e depois a arrow function
+let iii = 0;
+imgsss.forEach((item) => console.log(iii++));
+
+// aqui não vai ter argumento nenhum, o parâmetro tá vazio é onde tem os parênteses. 
+let iiii = 0;
+imgsss.forEach(() => console.log(iiii++));
