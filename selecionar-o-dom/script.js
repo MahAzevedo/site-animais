@@ -237,6 +237,7 @@ imgsss.forEach(() => {
 });
 
 // aqui só vai ter uma linha de código então pode tirar as chaves e fazer depois da arrow function/seta
+// a function curta não tem chaves
 // argumento é o item e depois a arrow function
 let iii = 0;
 imgsss.forEach((item) => console.log(iii++));
@@ -244,3 +245,22 @@ imgsss.forEach((item) => console.log(iii++));
 // aqui não vai ter argumento nenhum, o parâmetro tá vazio é onde tem os parênteses. 
 let iiii = 0;
 imgsss.forEach(() => console.log(iiii++));
+
+
+
+// ****** ------*****------_______*******
+
+
+
+
+// Exercícios: Arrow function;
+
+// 1/3: Mostre no console cada parágrafo do site:
+
+const todosParagrafos = document.querySelectorAll('p');
+// ou fazer com TagName: const todosParagrafos = document.getElementsByTagName('p');
+todosParagrafos.forEach((item) => {
+    console.log(item);
+});
+
+// 2/3: Mostre o texto dos parágrafos no console:
