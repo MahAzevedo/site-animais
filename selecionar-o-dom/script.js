@@ -263,4 +263,28 @@ todosParagrafos.forEach((item) => {
     console.log(item);
 });
 
+
 // 2/3: Mostre o texto dos parágrafos no console:
+
+const mostraTextoP = document.querySelectorAll('p');
+
+mostraTextoP.forEach((item) => {
+    console.log(item.innerText)
+})
+
+// 3/3: Como corrigir os erros abaixo:
+const immgs = document.querySelectorAll('img');
+// aqui faltava os parenteses
+immgs.forEach((item, index) => {
+    console.log(item, index);
+});
+
+// aqui faltou os parenteses
+let iiiii = 0;
+imgs.forEach(() => {
+    console.log(iiiii++);
+});
+
+
+imgs.forEach(() => (iiiii++));
+console.log(iiiii)
