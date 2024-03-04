@@ -287,6 +287,14 @@ imgs.forEach(() => {
 
 
 imgs.forEach(() => (iiiii++));
-console.log(iiiii)
+console.log(iiiii);
 
-//exercicio
+
+
+// *****---------------******-----------
+
+
+// Classes e atributos:
+
+
+
