@@ -296,5 +296,59 @@ console.log(iiiii);
 
 // Classes e atributos:
 
+// classList :  
+
+const menu = document.querySelector('.menu');
+menu.classList.add('ativo', 'azul')// adiciona
+menu.classList.remove('azul')// remove
+menu.classList.toggle('azul')//adicionou o azul que foi removido, ele remove ou adiciona
+// console.log(menu.classList.)
+
+if (menu.classList.contains('azul')) {
+    menu.classList.add('possui-azul')
+} else {
+    menu.classList.add('nao-possui-azul')
+};
 
 
+//    classNames:
+
+console.log(menu.className)// isso aqui com className retorna uma string
+
+// o sinal de +mais em string é para concatenar
+// o sinal de += ajuda a abreviar , olha abaixo
+//  menu.className += ' vermelho'
+
+// essa forma aqui é a mais usada
+menu.className = menu.className + ' vermelho'
+
+
+//   attributes:
+// retorna um array-like com os atributos do elemento.
+
+const animaisss = document.querySelector('.animais');
+console.log(animaisss.attributes[0]);
+console.log(animaisss.attributes.class);
+console.log(animaisss.attributes.id);
+
+// attribute: data; atributo data
+// data-texto
+
+console.log(animaisss.attributes[0]);
+console.log(animaisss.attributes.class);
+console.log(animaisss.attributes.id);
+console.log(animaisss.attributes['data-texto']);  // escreve igual uma string
+
+
+//   getAttribute e setAttribute:
+
+//   (são os que mais vamos usar)
+//  Métodos que retornam ou definem de acordo com o atributo selecionado.
+
+// nele a gente já passa direto o valor que quer puxar
+
+const imgssss = document.querySelector('img');
+
+imgssss.getAttribute('src')
+
+// getAttribute é um método, e um método é uma função, então por isso tem parênteses pra aitvar ele
