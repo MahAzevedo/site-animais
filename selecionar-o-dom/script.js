@@ -289,4 +289,4 @@ imgs.forEach(() => {
 imgs.forEach(() => (iiiii++));
 console.log(iiiii)
 
-//exercicios
+//exercicio
