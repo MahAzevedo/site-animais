@@ -350,5 +350,22 @@ console.log(animaisss.attributes['data-texto']);  // escreve igual uma string
 const imgssss = document.querySelector('img');
 
 imgssss.getAttribute('src')
+console.log(imgssss.getAttribute('src'));
+console.log(imgssss.getAttribute('alt'));
 
-// getAttribute é um método, e um método é uma função, então por isso tem parênteses pra aitvar ele
+const srcImg = imgssss.getAttribute('alt');
+console.log(srcImg)
+
+const setImg = imgssss.setAttribute('cria-posição-nome-do-atributo-ex:-caneta-ou-alt', 'aqui é o valor do atributo, ex: é uma raposa')
+// ATENCAO: o set não verifica, só cria, se tiver errado vai ficar errado
+
+// getAttribute é um método, e um método é uma função, então por isso tem parênteses pra ativar ele
+
+// set cria um novo atributo se não existir   ou   então ele simplesmente atualiza 
+
+const possuiAlt = imgssss.hasAttribute('alt');
+console.log(possuiAlt)
+// o has retorna resultado boleano
+
+// get pra pegar
+// set pra setar
