@@ -369,3 +369,71 @@ console.log(possuiAlt)
 
 // get pra pegar
 // set pra setar
+
+const carro = {
+    portas: 4,
+    andar: function (km) {
+        console.log(`Andou ${km}`);
+    }
+}  // isso tudo é um objeto!!!
+
+// carro.andar sem parenteses é um método
+// carro.andar com parenteses tem valor 
+
+
+
+
+//  ATENCAO:
+//      cores no Origamid:
+// amarelo: metodo, função
+// cinza: propriedade
+// branco: objeto (é a variavel em si)
+
+
+// ------*****--------****-----*****
+
+
+// 1/4: Adicione a classe ativo a todos os itens do menu
+
+const itensMenu = document.querySelectorAll('.menu a');
+itensMenu.forEach((item) => {
+    item.classList.add('ativo');
+});
+// -------------*****------------
+
+
+
+// 2/4: Remove a classe ativo de todos os itens do menu e mantenha apenas no primeiro
+
+itensMenu.forEach((item) => {
+    item.classList.remove('ativo');
+});
+itensMenu[0].classList.add('ativo');
+
+// -------------*****------------
+
+
+
+// 3/4: Verifique se as imagens possuem o atributo alt
+
+const imgAlt = document.querySelectorAll('img')
+imgAlt.forEach((img) => {
+    const possuiAtributo = img.hasAttribute('alt')
+    console.log(img, possuiAtributo);
+})
+
+// -------------*****------------
+
+
+
+// 4/4: Modifique o href do link externo no menu
+
+const linkExterno = document.querySelector('a[href^="http"]');
+linkExterno.setAttribute('href', 'www.google.com/');
+console.log(linkExterno)
+// -------------*****------------
+
+// 0306 parte1:
+// Height e Width
+
+// propriedades e metodos
