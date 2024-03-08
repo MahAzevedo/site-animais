@@ -436,4 +436,7 @@ console.log(linkExterno)
 // 0306 parte1:
 // Height e Width
 
-// propriedades e metodos
+const section = document.querySelector('.animais');
+section.clientHeight;
+console.log(section)
+// section
