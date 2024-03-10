@@ -439,4 +439,4 @@ console.log(linkExterno)
 const section = document.querySelector('.animais');
 section.clientHeight;
 console.log(section)
-// section 1
+// section 
