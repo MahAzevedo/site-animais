@@ -438,5 +438,25 @@ console.log(linkExterno)
 
 const section = document.querySelector('.animais');
 section.clientHeight;
-console.log(section)
-// section link externo clientHeight
+console.log(section);
+
+
+// getBoundingClientRect:
+// rect
+
+const primeiroH2 = document.querySelector('h2');
+const h2left = primeiroh2.offsetLeft;
+
+const rect = primeiroh2.getBoundingClientRect();
+
+console.log(rect.top);
+
+console.log(
+    window.innerWidth,
+    window.innerHeight,
+    window.outerWidth,
+    window.outerHeight,
+);
+
+
+
