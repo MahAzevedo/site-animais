@@ -479,3 +479,5 @@ if (small.matches) {
 } else {
     console.log('Tela maior que 600px')
 };
+
+// dimensoes
