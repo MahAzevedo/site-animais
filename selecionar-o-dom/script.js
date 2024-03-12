@@ -447,16 +447,29 @@ console.log(section);
 const primeiroH2 = document.querySelector('h2');
 const h2left = primeiroh2.offsetLeft;
 
-const rect = primeiroh2.getBoundingClientRect();
+const h2rect = primeiroh2.getBoundingClientRect();
 
-console.log(rect.top);
+console.log(h2rect.top);
 
 console.log(
     window.innerWidth,
     window.innerHeight,
     window.outerWidth,
     window.outerHeight,
+    window.pageYOffset,
+    window.pageXOffset,
 );
 
+if (window.innerWidth < 600) {
+    console.log('Tela menor que 600px');
+};
 
+if (h2rect.top < 0) {
+    console.log('Passou do elemento');
+};
+
+
+
+// machtMedia():
+// machtMedia() : melhor usar esse aqui para verificar altura do browser.
 
