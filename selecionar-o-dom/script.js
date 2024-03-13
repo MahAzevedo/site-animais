@@ -512,7 +512,10 @@ todasImgs.forEach((imagem) => {
     console.log(imagem.offsetWidth);
 }); // to aqui
 
-
+const imagens = document.querySelectorAll('img');
+imagens.forEach((imagem) => {
+    console.log(imagem.offsetWidth);
+});
 
 
 
