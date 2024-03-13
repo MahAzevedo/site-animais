@@ -433,7 +433,11 @@ linkExterno.setAttribute('href', 'www.google.com/');
 console.log(linkExterno)
 // -------------*****------------
 
-// 0306 parte1:
+
+
+
+
+// 0306 parte1:  Dimensões e Distâncias:
 // Height e Width
 
 const section = document.querySelector('.animais');
@@ -487,3 +491,16 @@ if (smalll) {
 } else {
     console.log('Usuário desktop');
 }
+
+// const distanciaImg = document.querySelector(img);
+console.log(window.outerHeight)
+
+// 2/4: Retorne a soma da largura de todas as imagens
+console.log(
+    window.innerWidth,
+    window.innerHeight,
+    window.outerWidth,
+    window.outerHeight,
+    window.pageYOffset,
+    window.pageXOffset,
+);
