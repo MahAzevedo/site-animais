@@ -513,6 +513,15 @@ todasImgs.forEach((imagem) => {
 }); // to aqui
 
 
+
+
+
+
+
+
+
+
+
 // 3/4: Verifique se os links da página possuem o mínimo recomendado para telas utilizadas com o dedo. (48px/48px de acordo com o google).
 
 /* Resposta:
