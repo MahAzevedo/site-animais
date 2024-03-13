@@ -480,4 +480,10 @@ if (small.matches) {
     console.log('Tela maior que 600px')
 };
 
-// dimensoes
+// ou o matches direto no final da const:
+const smalll = window.matchMedia('(max-width: 600px)').matches;
+if (smalll) {
+    console.log('Usuário mobile');
+} else {
+    console.log('Usuário desktop');
+}
