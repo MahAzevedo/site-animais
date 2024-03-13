@@ -499,16 +499,19 @@ if (smalll) {
 
 const distancia = document.querySelector('img');
 console.log(distancia.offsetTop);
+// ou dessa forma abaixo
+const distanciaImg = document.querySelector('img');
+const distanciaImgTop = distanciaImg.offsetTop;
+console.log(distanciaImgTop);
+
 
 // 2/4: Retorne a soma da largura de todas as imagens
-console.log(
-    window.innerWidth,
-    window.innerHeight,
-    window.outerWidth,
-    window.outerHeight,
-    window.pageYOffset,
-    window.pageXOffset,
-);
+
+const todasImgs = document.querySelectorAll('img')
+todasImgs.forEach((imagem) => {
+    console.log(imagem.offsetWidth);
+}); // to aqui
+
 
 // 3/4: Verifique se os links da página possuem o mínimo recomendado para telas utilizadas com o dedo. (48px/48px de acordo com o google).
 
@@ -521,8 +524,8 @@ console.log(
 
 const browserMenor = window.matchMedia('(max-width: 720px)').matches;
 
-if (browserMenor < 720) {
+if (browserMenor.innerWidth < 720) {
     console.log('Se o browser for 720px não faz nada.');
 } else {
-    console.log('Adiciona ');
+    console.log('Adiciona classe menu-mobile');
 }
