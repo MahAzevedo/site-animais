@@ -510,13 +510,21 @@ console.log(distanciaImgTop);
 const todasImgs = document.querySelectorAll('img')
 todasImgs.forEach((imagem) => {
     console.log(imagem.offsetWidth);
-}); // to aqui
-
-const imagens = document.querySelectorAll('img');
-imagens.forEach((imagem) => {
-    console.log(imagem.offsetWidth);
 });
 
+
+function somaImagens() {
+    const imagens = document.querySelectorAll('img');
+    let soma = 0;
+    imagens.forEach((imagem) => {
+        // soma = soma + imagem.offsetWidth; forma longa de esctever, a debaixo é mais rápida +=
+        soma += imagem.offsetWidth;
+    });
+    console.log(soma);
+}
+window.onload = function () {
+    somaImagens();
+};
 
 
 
