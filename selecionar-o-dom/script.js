@@ -492,8 +492,13 @@ if (smalll) {
     console.log('Usuário desktop');
 }
 
-// const distanciaImg = document.querySelector(img);
-console.log(window.outerHeight)
+
+// Exercícios:
+
+// 1/4: Verifique a distância da primeira imagem em relação ao topo da página: 
+
+const distancia = document.querySelector('img');
+console.log(distancia.offsetTop);
 
 // 2/4: Retorne a soma da largura de todas as imagens
 console.log(
@@ -504,3 +509,20 @@ console.log(
     window.pageYOffset,
     window.pageXOffset,
 );
+
+// 3/4: Verifique se os links da página possuem o mínimo recomendado para telas utilizadas com o dedo. (48px/48px de acordo com o google).
+
+/* Resposta:
+ O tamanho recomendado da área para objetos com tela touchscreen é de 7 a 10 mm.
+*/
+
+
+// 4/4: Se o browser for menor que 720px adicione a classe menu-mobile ao menu.
+
+const browserMenor = window.matchMedia('(max-width: 720px)').matches;
+
+if (browserMenor < 720) {
+    console.log('Se o browser for 720px não faz nada.');
+} else {
+    console.log('Adiciona ');
+}
