@@ -3,6 +3,8 @@
 //     pegaElementosPeloId
 // ex.:
 
+
+
 // const animaisSection = document.getElementById('animais');
 // console.log(animaisSection)
 
@@ -539,17 +541,15 @@ window.onload = function () {
 
 const links = document.querySelectorAll('a');
 links.forEach((link) => {
+    const linkWidth = link.offsetWidth;
+    const linkHeight = link.offsetHeight;
 
+    if (linkWidth >= 48 && linkHeight >= 48) {
+        console.log(link, 'Possui boa acessibilidade')
+    } else {
+        console.log(link, 'Não possui boa acessibilidade')
+    }
 });
-
-// console.log(links);
-
-
-
-/* Resposta:
- O tamanho recomendado da área para objetos com tela touchscreen é de 7 a 10 mm.
-*/
-
 
 
 // ---- ****
@@ -559,9 +559,16 @@ links.forEach((link) => {
 
 const browserMenor = window.matchMedia('(max-width: 720px)').matches;
 
-if (browserMenor.innerWidth < 720) {
-    console.log('Se o browser for 720px não faz nada.');
-} else {
-    console.log('Adiciona classe menu-mobile');
+if (browserMenor) {
+    const menu = document.querySelector('.menu');
+    menu.classList.add('Mádjan---CONSEGUIU-menu-mobile');
 }
 
+const browserSmall = window.matchMedia('(max-width: 720px)').matches;
+if (browserSmall) {
+    const menu = document.querySelector('.menu');
+    menu.classList.add('Mádjan-fez-de-novo-certinho-e-completinho')
+}
+
+
+// cria variável e depois verifica a variável com o if  !!!!
