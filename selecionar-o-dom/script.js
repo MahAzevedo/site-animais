@@ -564,6 +564,8 @@ if (browserMenor) {
     menu.classList.add('Mádjan---CONSEGUIU-menu-mobile');
 }
 
+// cria variável e depois verifica a variável com o if  !!!!
+
 const browserSmall = window.matchMedia('(max-width: 720px)').matches;
 if (browserSmall) {
     const menu = document.querySelector('.menu');
@@ -571,4 +573,15 @@ if (browserSmall) {
 }
 
 
-// cria variável e depois verifica a variável com o if  !!!!
+// ---- ****
+
+
+// ---- EVENTOS, com eles que damos interatividade maior para o nosso site.
+
+const img = document.querySelector('img');
+img.addEventListener('click', function () {
+    console.log('Clicou');
+})
+
+
+
