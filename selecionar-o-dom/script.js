@@ -564,3 +564,4 @@ if (browserMenor.innerWidth < 720) {
 } else {
     console.log('Adiciona classe menu-mobile');
 }
+
