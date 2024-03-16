@@ -583,5 +583,9 @@ img.addEventListener('click', function () {
     console.log('Clicou');
 })
 
-
+// ou com arro function ()=>{}
+const immg = document.querySelector('img');
+immg.addEventListener('click', () => {
+    console.log('Clicou');
+})
 
