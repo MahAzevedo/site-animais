@@ -589,4 +589,4 @@ immg.addEventListener('click', () => {
     console.log('Clicou');
 })
 
-// teste
+// exercicios
