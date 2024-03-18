@@ -578,6 +578,8 @@ if (browserSmall) {
 
 // ---- EVENTOS, com eles que damos interatividade maior para o nosso site.
 
+// eventos com ADDEVENTLISTENER:
+
 const img = document.querySelector('img');
 img.addEventListener('click', function () {
     console.log('Clicou');
@@ -589,4 +591,4 @@ immg.addEventListener('click', () => {
     console.log('Clicou');
 })
 
-// exercicios
+// eventos com CALLBACK:
