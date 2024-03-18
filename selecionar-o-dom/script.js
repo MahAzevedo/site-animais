@@ -592,3 +592,11 @@ immg.addEventListener('click', () => {
 })
 
 // eventos com CALLBACK:
+
+
+
+
+/*
+le-se: começando(^) com(=)
+          ^           = 
+*/
