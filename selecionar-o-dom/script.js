@@ -585,7 +585,7 @@ img.addEventListener('click', function () {
     console.log('Clicou');
 })
 
-// ou com arro function ()=>{}
+// ou com arro function ()=>{} funcao anonima
 const immg = document.querySelector('img');
 immg.addEventListener('click', () => {
     console.log('Clicou');
