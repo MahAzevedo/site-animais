@@ -593,10 +593,14 @@ immg.addEventListener('click', () => {
 
 // eventos com CALLBACK:
 
-
-
-
 /*
 le-se: começando(^) com(=)
           ^           = 
 */
+
+const evento = document.querySelector('img');
+function callback(event) {
+    console.log(event)
+};
+img.addEventListener('click', callback);
+//exercicios
