@@ -604,4 +604,3 @@ function callback(event) {
 };
 img.addEventListener('click', callback);
 
-// e
