@@ -619,4 +619,3 @@ const precosFiltro = precos.filter((preco) =>
 );
 const precosNumeros = precos.map((preco) => preco.);
 console.log(precosNumeros);
-//
