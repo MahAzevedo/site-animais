@@ -614,8 +614,12 @@ const precos = [
     'Meus dados',
 ];
 
-const precosFiltro = precos.filter((preco) =>
-    preco.includes('R$')
-);
-const precosNumeros = precos.map((preco) => preco.precosNumeros);
+const precosFiltro = precos.filter((p) => preco.includes('R$'));
+
+const precosNumeros = precosFiltro.map((preco) => Number(preco.replace('R$',));
 console.log(precosNumeros);
+
+
+
+
+
