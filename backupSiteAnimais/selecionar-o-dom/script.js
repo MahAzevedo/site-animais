@@ -598,6 +598,10 @@ le-se: começando(^) com(=)
           ^           = 
 */
 
+
+
+
+// react :
 const evento = document.querySelector('img');
 function callback(event) {
     console.log(event)
@@ -621,6 +625,8 @@ const precosNumeros = precosFiltro.map((preco) =>
     Number(preco.replace('R$ ', ''))
 );
 console.log(precosNumeros);
+
+
 
 
 
