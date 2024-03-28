@@ -634,6 +634,7 @@ if (grupoA > grupoB) {
     console.log('Grupo A, ganhou!')
 }
 
+console.log('Grupo A, ganhou!')
 
 
 
