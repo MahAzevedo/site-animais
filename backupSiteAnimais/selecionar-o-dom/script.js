@@ -601,7 +601,8 @@ le-se: começando(^) com(=)
 
 
 
-// react :
+// react :;
+
 const evento = document.querySelector('img');
 function callback(event) {
     console.log(event)
@@ -627,7 +628,11 @@ const precosNumeros = precosFiltro.map((preco) =>
 console.log(precosNumeros);
 
 
-
+const grupoA = 100;
+const grupoB = 200;
+if (grupoA > grupoB) {
+    console.log('Grupo A, ganhou!')
+}
 
 
 
