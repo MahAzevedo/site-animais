@@ -9,4 +9,4 @@ if (grupoA > grupoB) {
 const vencedor = grupoA > grupoB ? 'Grupo A, ganhou!' : 'Grupo B, ganhou!';
 console.log(vencedor)
 
-// exercicios
+// exercicios react
