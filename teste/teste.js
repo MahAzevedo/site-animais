@@ -12,4 +12,4 @@ console.log(vencedor)
 const group = 10;
 if (10 > 5) {
     console.log('é maior');
-} 
+} else ('é menor')
