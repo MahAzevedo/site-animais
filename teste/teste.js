@@ -10,6 +10,6 @@ const vencedor = grupoA > grupoB ? 'Grupo A, ganhou!' : 'Grupo B, ganhou!';
 console.log(vencedor)
 
 const group = 10;
-if (10 > 5) {
+if (group > 5) {
     console.log('é maior');
 } else ('é menor')
