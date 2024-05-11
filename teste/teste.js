@@ -11,5 +11,5 @@ console.log(vencedor)
 
 const group = 10;
 if (10 > 5) {
-    ('é maior')
+    console.log('é maior');
 } 
