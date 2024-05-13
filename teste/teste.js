@@ -13,4 +13,4 @@ const group = 10;
 if (group > 5) {
     console.log('é maior');
 } else ('é menor')
-const sera = group1 > group2 ? 
+const sera = group1 > group2 ? 'é maior' : 'é menor';
