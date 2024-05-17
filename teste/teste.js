@@ -10,3 +10,4 @@ const vencedor = grupoA > grupoB ? 'Grupo A, ganhou!' : 'Grupo B, ganhou!';
 console.log(vencedor)
 
 // operador ternario
+// resume em menos linhas o código
