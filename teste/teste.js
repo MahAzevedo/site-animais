@@ -11,3 +11,4 @@ console.log(vencedor)
 
 // operador ternario
 // resume em menos linhas o código
+// usa simbologia
