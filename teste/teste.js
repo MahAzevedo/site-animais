@@ -12,3 +12,4 @@ console.log(vencedor)
 // operador ternario
 // resume em menos linhas o código
 // usa simbologia
+// com ele dá ora fazer expressão/ expressões
