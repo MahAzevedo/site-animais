@@ -15,5 +15,3 @@ console.log(vencedor)
 // com ele dá ora fazer expressão/expressões
 // () se usa parenteses para executar algo
 
-const venced = grupoA > grupoB ? 'Grupo A, ganhou!' : 'Grupo B, ganhou!';
-console.log(vencedor)
