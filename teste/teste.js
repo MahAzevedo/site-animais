@@ -16,4 +16,4 @@ console.log(vencedor)
 // () se usa parenteses para executar algo
 
 const vend = grupoA > grupoB ? 'Grupo A, ganhou!' : 'Grupo B, ganhou!';
-console.log(vend)
+console.log(ven)
