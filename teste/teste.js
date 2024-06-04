@@ -15,3 +15,4 @@ console.log(vencedor)
 // com ele dá ora fazer expressão/expressões
 // () se usa parenteses para executar algo
 
+console()
