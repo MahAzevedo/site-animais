@@ -17,3 +17,5 @@ console.log(vencedor)
 
 
 //****************
+
+// Mostre os dados da aplicação, como apresentado no vídeo
