@@ -24,5 +24,5 @@ console.log(vencedor)
 // Se o gasto for maior que 10000 mostre uma mensagem
 
 const App = () => {
-    return <button>Comprar</button>;
+    return React.createElement('button', null, 'Comprar');
 };
