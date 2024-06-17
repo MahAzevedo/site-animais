@@ -24,9 +24,5 @@ console.log(vencedor)
 // Se o gasto for maior que 10000 mostre uma mensagem
 
 const App = () => {
-    return (
-        <a href="https://www.origamid.com" title="Site Origamid">
-            Origamid
-        </a>
-    );
+    return <div className="grid">Origamid</div>;
 };
