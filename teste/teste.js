@@ -24,10 +24,5 @@ console.log(vencedor)
 // Se o gasto for maior que 10000 mostre uma mensagem
 
 const App = () => {
-    return (
-        <form>
-            <label htmlFor="nome">Nome</label>
-            <input type="text" id="nome" />
-        </form>
-    )
+    return <video autoPlay />;
 };
