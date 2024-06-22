@@ -24,5 +24,7 @@ console.log(vencedor)
 // Se o gasto for maior que 10000 mostre uma mensagem
 
 const App = () => {
-
+    const desconto = 50;
+    const preco = 250;
+    return <p>{preco - desconto}</p>
 };
