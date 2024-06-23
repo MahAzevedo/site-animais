@@ -23,7 +23,8 @@ console.log(vencedor)
 // Se a situação estiver ativa pinte de verde, inativa vermelho
 // Se o gasto for maior que 10000 mostre uma mensagem
 
+const Titulo = <h1>Meu Título</h1>;
+
 const App = () => {
-    const ativo = true;
-    return <p className={ativo ? 'ativo' : 'inativo'}>Estoque</p>
+    return <div>{Titulo}</div>
 };
