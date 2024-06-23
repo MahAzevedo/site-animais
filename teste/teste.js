@@ -27,3 +27,9 @@ const mario = {
     ],
     ativa: false,
 };
+
+const App = () => {
+    const dados = luana;
+
+    return <div></div>;
+};
