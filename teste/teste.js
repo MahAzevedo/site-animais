@@ -4,9 +4,8 @@
 // Se o gasto for maior que 10000 mostre uma mensagem
 
 
-
 const luana = {
-    clientes: 'Luana',
+    cliente: 'Luana',
     idade: 27,
     compras: [
         { nome: 'Notebook', preco: 'R$ 2500' },
@@ -31,5 +30,11 @@ const mario = {
 const App = () => {
     const dados = luana;
 
-    return <div></div>;
+    return (
+        <div>
+            <p>Nome: {dados.cliente}</p>
+            <p>Idade: {dados.idade}</p>
+            <p>Compras: {dados.compras}</p>
+        </div>
+    );
 };
