@@ -30,6 +30,9 @@ const mario = {
 const App = () => {
     const dados = luana;
 
+    const total = dados.compras.map(item => item.preco);
+    console.log(total);
+
     return (
         <div>
             <p>Nome: {dados.cliente}</p>
