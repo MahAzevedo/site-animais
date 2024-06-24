@@ -41,3 +41,11 @@ const App = () => {
         </div>
     );
 };
+
+// ************************
+
+const App = () => {
+    const produtos = ['Notebook', 'Smartphone', 'Tablet'];
+
+    return <p>{produtos}</p>
+};
